@@ -25,31 +25,40 @@ GitHub bukan satu-satunya platform kolaborasi yang mendukung Git. Ada juga GitLa
 ### Perintah Dasar Git 
 Inisialisasi repository baru.
 ```
- git init
+git init
 ```
 Memeriksa perubahan yang terjadi.
 ```
- git status
+git status
 ```
 Menambahkan perubahan ke staging area.
 ```
- git add
+git add
 ```
 Menyimpan perubahan sebagai satu versi.
 ```
- git commit
+git commit
 ```
 Mengunggah perubahan ke repositori jarak jauh
 ```
- git push
+git push
 ```
 Mengambil perubahan dari repositori jarak jauh
 ```
- git pull
+git pull
 ```
 Mengembalikan commit tertentu (undo)
 ```
- git reset
+git reset
+```
+Melihat log commit kode
+```
+git log
+```
+Menyimpan perubahan sementara tanpa melakukan commit
+```
+git stash
+git stash pop (untuk mengembalikan perubahan)
 ```
 
 ### Situasi 
